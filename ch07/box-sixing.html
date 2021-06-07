@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing 예제</title>
+    <style>
+        div{
+            width: 300px;
+            height: 150px;
+            border: 2px solid #ff0000;
+            margin: 10px;
+            float: left;
+            padding: 10px;
+        }
+        #box1{
+            box-sizing: border-box;
+            /* box-sizing :  */
+        }
+        #box2{
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">width=콘텐츠영역 + padding</div>
+    <!-- padding을 포함한 콘텐츠 크기 -->
+    <div id="box2">width=콘텐츠영역</div>
+    <!-- 콘텐츠 크기 -->
+    
+</body>
+</html>

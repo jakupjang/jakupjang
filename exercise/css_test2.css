@@ -1,0 +1,15 @@
+body{
+    background-color: darkkhaki;
+}
+h2{
+    color: #0000ff;
+}
+p{
+    color: green;
+    font-family: 궁서체;
+    font-size: 18px;
+    line-height: 1.5;
+}
+span{
+    color: blueviolet;
+}
